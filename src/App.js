@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Container from "./components/Container/Container";
 import Wrapper from "./components/Wrapper/Wrapper";
 import cards from "./cards.json";
+import Card from "./components/Card/Card";
 import './App.css';
 
 class App extends Component {
@@ -49,13 +50,21 @@ clickCount = id => {
 render() {
   return (
     <Wrapper>
-    <Navbar />
+    <Navbar score={this.state.score} highscore={this.state.highscore} />
     
     <Container>
     <Header backgroundImage="https://i.imgur.com/qkdpN.jpg">
         <h1>Pupster</h1>
         <h2>They're the Good Boys and Girls</h2>
       </Header>
+      {this.state.cards.map(card => (
+          <Card
+            clickCount={this.clickCount}
+            id={card.id}
+            key={card.id}
+            image={card.image}
+          />
+        ))}
       </Container>
       
     <Footer />
