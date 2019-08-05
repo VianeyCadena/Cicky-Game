@@ -51,12 +51,11 @@ render() {
   return (
     <Wrapper>
     <Navbar score={this.state.score} highscore={this.state.highscore} />
-    
-    <Container>
     <Header backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
+        <h1>Clicky Game</h1>
+        <h2>Test for designers, don't click the same pantone two times</h2>
       </Header>
+    <Container>
       {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
