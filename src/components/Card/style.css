@@ -11,10 +11,12 @@
   }
   
   .card > .img-container {
-    height: 100%;
+    height: 80%;
+    width: 90%;
+    margin: auto;
     overflow: hidden;
     text-align: center;
-    background:#6CADDC;
+    background: #ffffff;;
   }
   .card > .img-container > img {
     width: 100%
