@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
     return(
-        <footer class="page-footer">
+        <footer class="page-footer  blue-grey darken-1">
           <div class="footer-copyright">
             <div class="container">
             © 2019 Copyright Text

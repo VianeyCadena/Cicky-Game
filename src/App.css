@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-family: 'Courgette', cursive;
+}
+
+h3 {
+  font-family: 'Courgette', cursive;
+  color: white;
+}
+
+.brand-logo {
+  font-family: 'Courgette', cursive;
+}
