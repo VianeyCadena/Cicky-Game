@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cicky-Game/static/css/main.f46ba739.chunk.css",
+    "main.js": "/Cicky-Game/static/js/main.91337842.chunk.js",
+    "main.js.map": "/Cicky-Game/static/js/main.91337842.chunk.js.map",
+    "runtime~main.js": "/Cicky-Game/static/js/runtime~main.c8f5a4d2.js",
+    "runtime~main.js.map": "/Cicky-Game/static/js/runtime~main.c8f5a4d2.js.map",
+    "static/js/2.884c28c3.chunk.js": "/Cicky-Game/static/js/2.884c28c3.chunk.js",
+    "static/js/2.884c28c3.chunk.js.map": "/Cicky-Game/static/js/2.884c28c3.chunk.js.map",
+    "index.html": "/Cicky-Game/index.html",
+    "precache-manifest.034091bc44fccce9ef668d86d3b84212.js": "/Cicky-Game/precache-manifest.034091bc44fccce9ef668d86d3b84212.js",
+    "service-worker.js": "/Cicky-Game/service-worker.js",
+    "static/css/main.f46ba739.chunk.css.map": "/Cicky-Game/static/css/main.f46ba739.chunk.css.map"
+  }
+}
